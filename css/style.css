@@ -8,6 +8,7 @@
     --font2: 'Bebas Neue', cursive;
     --font3: 'Raleway', sans-serif;
     --yellow: #ca9c6a;
+    --whiteimg: invert(100%) sepia(0%) saturate(2580%) hue-rotate(170deg) brightness(106%) contrast(100%);
 }
 body {
     font-family: var(--font3);
@@ -95,5 +96,87 @@ header {
     background-position: center;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    padding: 2em 0;
+}
+.banner-content {
+    max-width: 992px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-content h1 {
+    font-size: 5rem;
+    font-family: var(--font2);
+    font-weight: 700;
+}
+.banner-content h1 span {
+    color: var(--yellow);
+    text-shadow: 0 0 10px #af5f09;
+    -webkit-text-stroke: 1px #af5f09;
+}
+.banner-content p {
+    margin: 0 0 2em 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.counter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-box {
+    padding: 1em;
+    text-align: center;
+    width: 170px;
+    height: 130px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ffffff, transparent 120%);
+}
+.counter-box img {
+    width: 50px;
+}
+.counter-box h4 {
+    margin: 10px 0 0 0;
+    font-size: 19px;
+    font-family: var(--font1);
+    font-weight: 600;
+    color: #fff;
+    line-height: 1;
+}
+.counter-box h4 span {
+    width: 30px;
+    display: inline-block;
+}
+.banner-form {
+    background-color: #fff;
+    margin-top: 2em;
+    border-radius: 20px;
+    padding: 1em 2em;
+    background-image: url(../images/noise-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-input {
+    margin: 30px 0;
+}
+.banner-input input {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #d5d5d5;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.banner-input input::placeholder {
+    color: #aeaeae;
+}
+.banner-input input:focus {
+    border-color: var(--yellow);
+    color: var(--yellow);
 }
 /* end banner */
