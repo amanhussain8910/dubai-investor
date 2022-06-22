@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font1: 'Barlow', sans-serif;
+    --font2: 'Bebas Neue', cursive;
+    --font3: 'Raleway', sans-serif;
+    --yellow: #ca9c6a;
+}
+body {
+    font-family: var(--font3);
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: unset;
+}
+button, input {
+    background: unset;
+    border: unset;
+    outline: none !important;
+    box-shadow: unset;
+}
+
+
+
+
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header-top ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-top ul li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: .7;
+}
+.header-top ul li:last-child a {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #fff;
+}
+.header-top ul li a i {
+    margin-right: 5px;
+}
+.header-top ul li a:hover {
+    opacity: 1;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 250px;
+}
+.navibar ul {
+    display: flex;
+    align-items: center;
+}
+.navibar ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 3em;
+}
+.navibar ul li a:hover {
+    color: var(--yellow);
+}
+/* end header */
+
+/* banner */
+.banner-wrapper {
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+/* end banner */
