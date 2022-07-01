@@ -410,3 +410,85 @@ header.sticky {
     margin-top: 5px;
 }
 /* end choose */
+
+/* about */
+.default-banner {
+    background-image: url(../images/bg-default.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2em;
+}
+.default-text h2 {
+    font-family: var(--font4);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.default-text h2 small {
+    display: block;
+    font-family: var(--font3);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--yellow);
+}
+.about-text p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 15px;
+}
+.about-wrapper .counter-wrapper {
+    justify-content: center;
+    margin-top: 2em;
+}
+.about-wrapper .counter-box h4 {
+    color: #000;
+}
+/* end about */
+
+/* team */
+.team-wrapper {
+    margin-bottom: 100px;
+    background-image: url(../images/team-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team-wrapper .row {
+    margin-bottom: -100px;
+}
+.teambox {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+}
+.team-text {
+    padding: 1.5em 1em;
+}
+.team-text h4 {
+    text-align: center;
+    font-family: var(--font4);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+.team-text h4 small {
+    display: block;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 8px;
+    color: var(--yellow);
+}
+.team-wrapper .page-heading span {
+    -webkit-text-stroke: 1px #5e341c;
+}
+.team-wrapper .page-heading h2 {
+    color: #fff;
+}
+/* end team */
