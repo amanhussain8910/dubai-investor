@@ -57,7 +57,7 @@ button, input {
     opacity: .3;
 }
 .btnyellow:hover {
-    background-color: #ad8050;
+    background-color: #ad704e;
 }
 .btnyellow:hover:before {
     opacity: .6;
@@ -370,9 +370,12 @@ header.sticky {
 }
 .doit-box h4 {
     font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-weight: 600;
     margin: 0;
     color: #fdfcfc;
+    height: 36px;
 }
 /* end how we do it */
 
@@ -410,3 +413,64 @@ header.sticky {
     margin-top: 5px;
 }
 /* end choose */
+
+/* footer */
+footer {
+    background-color: #19130b;
+    padding: 3em 0;
+    color: #a9a9a9;
+}
+.footer1 .logo {
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
+.footer1 p {
+    font-size: 14px;
+}
+.footer-head {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--yellow);
+    margin-bottom: 1em;
+    letter-spacing: 4px;
+}
+.footer2 ul li a {
+    color: #a9a9a9;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    transition: .3s;
+}
+.footer2 ul li a i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: var(--yellow);
+}
+.footer2 ul li a:hover {
+    color: #fff;
+    margin-left: 5px;
+}
+.subscribe-input {
+    background-color: #Fff;
+    padding: 0 1em;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-input input {
+    flex: 1;
+    font-size: 14px;
+}
+.subscribe-input i {
+    color: var(--yellow);
+}
+.footer3 .btnyellow {
+    width: 100%;
+    margin-top: 1em;
+}
+/* end footer */
